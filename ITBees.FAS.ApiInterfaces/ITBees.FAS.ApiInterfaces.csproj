@@ -5,4 +5,13 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Companies\" />
+    <Folder Include="MyAccounts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ITBees.RestClient\ITBees.RestClient\ITBees.RestClient.csproj" />
+  </ItemGroup>
+
 </Project>
