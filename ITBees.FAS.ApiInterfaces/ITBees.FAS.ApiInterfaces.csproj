@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ITBees.RestClient" Version="5.0.7" />
+    <PackageReference Include="ITBees.RestClient" Version="5.0.8" />
   </ItemGroup>
 
 </Project>
