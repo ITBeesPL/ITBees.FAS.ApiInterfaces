@@ -8,6 +8,7 @@
   <ItemGroup>
     <Folder Include="Companies\" />
     <Folder Include="MyAccounts\" />
+    <Folder Include="Modules\" />
   </ItemGroup>
 
   <ItemGroup>
