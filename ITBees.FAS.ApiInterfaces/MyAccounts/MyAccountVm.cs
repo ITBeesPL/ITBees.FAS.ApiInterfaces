@@ -16,5 +16,6 @@ namespace ITBees.FAS.ApiInterfaces.MyAccounts
         public CompanyVm LastUsedCompany { get; set; }
         public Guid LastUsedCompanyGuid { get; set; }
         public string Language { get; set; }
+        public string DisplayName { get; set; }
     }
 }
