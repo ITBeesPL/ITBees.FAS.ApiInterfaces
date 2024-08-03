@@ -18,5 +18,7 @@ namespace ITBees.FAS.ApiInterfaces.Companies
         public string PostCode { get; set; }
         public string City { get; set; }
         public string Nip { get; set; }
+        public Guid? SubscriptionPlanGuid { get; set; }
+        public DateTime? SubscriptionActiveTo { get; set; }
     }
 }
