@@ -8,5 +8,5 @@ public class CompanyPlatformSubscriptionVm : Vm
     public Guid? SubscriptionPlanGuid { get; set; }
     public string? SubscriptionPlanName { get; set; }
     public DateTime? SubscriptionActiveTo { get; set; }
-    public bool TrialExpired { get; set; }
+    public bool TrialNotAvailable { get; set; }
 }
