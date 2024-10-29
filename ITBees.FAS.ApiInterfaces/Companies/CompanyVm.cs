@@ -8,7 +8,7 @@ namespace ITBees.FAS.ApiInterfaces.Companies
     {
         public CompanyVm()
         {
-            
+
         }
 
         public CompanyVm(Company x)
@@ -26,7 +26,7 @@ namespace ITBees.FAS.ApiInterfaces.Companies
             PostCode = x.PostCode;
             City = x.City;
             Nip = x.Nip;
-            CompanyPlatformSubscription = new CompanyPlatformSubscriptionVm(x.CompanyPlatformSubscription);
+            CompanyPlatformSubscription = x.CompanyPlatformSubscription == null ? null : new CompanyPlatformSubscriptionVm(x.CompanyPlatformSubscription);
         }
         public Guid Guid { get; set; }
         public string CompanyName { get; set; }
