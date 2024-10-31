@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ITBees.Models" Version="8.0.51" />
+    <PackageReference Include="ITBees.Models" Version="8.0.52" />
     <PackageReference Include="ITBees.RestClient" Version="8.0.15" />
   </ItemGroup>
 
