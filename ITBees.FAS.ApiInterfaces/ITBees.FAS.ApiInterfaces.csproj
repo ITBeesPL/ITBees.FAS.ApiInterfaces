@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ITBees.Models" Version="8.0.64" />
-    <PackageReference Include="ITBees.RestClient" Version="8.0.15" />
+    <ProjectReference Include="..\..\ITBees.Models\ITBees.Models\ITBees.Models.csproj" />
+    <ProjectReference Include="..\..\ITBees.RestClient\ITBees.RestClient\ITBees.RestClient.csproj" />
   </ItemGroup>
 
 </Project>
