@@ -13,6 +13,15 @@ public class CompanyPlatformSubscriptionVm : Vm
 
     public CompanyPlatformSubscriptionVm(CompanyPlatformSubscription x)
     {
+        if (x == null) return;
+        SubscriptionActiveTo = x.SubscriptionActiveTo;
+        SubscriptionPlanGuid = x.SubscriptionPlanGuid;
+        TrialNotAvailable = x.TrialNotAvailable;
+        SubscriptionPlanName = x.SubscriptionPlanName;
+    }
+
+    public CompanyPlatformSubscriptionVm(CompanyPlatformSubscriptionVm x)
+    {
         SubscriptionActiveTo = x.SubscriptionActiveTo;
         SubscriptionPlanGuid = x.SubscriptionPlanGuid;
         TrialNotAvailable = x.TrialNotAvailable;
