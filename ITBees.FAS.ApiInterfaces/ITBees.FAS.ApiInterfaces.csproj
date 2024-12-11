@@ -6,13 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Companies\"/>
-        <Folder Include="MyAccounts\"/>
-        <Folder Include="Modules\"/>
+        <Folder Include="Companies\" />
+        <Folder Include="MyAccounts\" />
+        <Folder Include="Modules\" />
     </ItemGroup>
     
     <ItemGroup>
-        <PackageReference Include="ITBees.Models" Version="8.0.66"/>
-        <PackageReference Include="ITBees.RestClient" Version="8.0.15"/>
+        <PackageReference Include="ITBees.Models" Version="8.0.67" />
+        <PackageReference Include="ITBees.RestClient" Version="8.0.15" />
     </ItemGroup>
 </Project>
