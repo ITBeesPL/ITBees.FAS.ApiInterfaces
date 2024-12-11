@@ -41,6 +41,6 @@ namespace ITBees.FAS.ApiInterfaces.Companies
         public string PostCode { get; set; }
         public string City { get; set; }
         public string Nip { get; set; }
-        public CompanyPlatformSubscriptionVm CompanyPlatformSubscription { get; set; }
+        public CompanyPlatformSubscriptionVm? CompanyPlatformSubscription { get; set; }
     }
 }
