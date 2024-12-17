@@ -27,6 +27,9 @@ namespace ITBees.FAS.ApiInterfaces.Companies
             City = x.City;
             Nip = x.Nip;
             CompanyPlatformSubscription = x.CompanyPlatformSubscription == null ? null : new CompanyPlatformSubscriptionVm(x.CompanyPlatformSubscription);
+            Email = x.Email;
+            Phones = x.Phones;
+            CompanyInvoiceHeader = x.CompanyInvoiceHeader;
         }
         public Guid Guid { get; set; }
         public string CompanyName { get; set; }
@@ -42,5 +45,8 @@ namespace ITBees.FAS.ApiInterfaces.Companies
         public string City { get; set; }
         public string Nip { get; set; }
         public CompanyPlatformSubscriptionVm? CompanyPlatformSubscription { get; set; }
+        public string? Email { get; set; }
+        public string? Phones { get; set; }
+        public string? CompanyInvoiceHeader { get; set; }
     }
 }
