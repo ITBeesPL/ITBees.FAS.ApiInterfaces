@@ -11,7 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="ITBees.Models" Version="8.0.80" />
+        <PackageReference Include="ITBees.Models" Version="8.0.81" />
         <PackageReference Include="ITBees.RestClient" Version="8.0.16" />
     </ItemGroup>
     
